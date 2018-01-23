@@ -25,5 +25,11 @@ $(document).ready(function()
         $("#project3").show();
         $("#intro").hide();
   });
-
+  $("#home").on("click",function(){
+       console.log("On click home");
+        $("#project1").hide();
+        $("#project2").hide();
+        $("#project3").hide();
+        $("#intro").show();
+  });
 });
