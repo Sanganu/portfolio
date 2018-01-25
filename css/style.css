@@ -11,3 +11,12 @@ body {
  .videos {
    width: 100%;
  }
+
+#intro {
+  font-family: 'Risque', cursive;
+}
+
+.centercomp {
+  margin: 10px;
+  max-height: 80%;
+}
