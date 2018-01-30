@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -24,40 +24,53 @@
                             <li id="prj1"><a href= "#project1"> Project 1</a></li>
                             <li id="prj2"><a href = "#project2">Project 2</a></li>
                             <li id ="prj3"><a href = "#project3">Project 3</a></li>
+                            <li id="assign"><a href = "#assignments">Assignments</a></li>
                       </ul>
               </li>
               <li><a href = "">Contact Me</a></li>
         </ul>
       </div>
     </nav>
-    <div id = "intro">
-          <h2>A Brief introduction about me</h2>
-          <p><img width=200 height=200 src ="./assets/IMG_0628.jpg" class="img-circle" alt="Sangeetha"></p>
-         </p>
-         <div id = "bootcamp">
+    <div id = "intro" class = "media">
+        <div class = "media-left media-middle">
+          <img width=200 height=200 src ="./assets/IMG_0628.jpg" class="img-circle media-object" alt="Sangeetha">
+        </div>
+         <div id = "media-body">
+           <h2 class = "media-heading">A Brief introduction about me</h2>
+
             <p>I have completed the Bootcamp program for Web application development at Denver Univeristy.
             This intense training program helped me in acquiring skills like HTML, CSS, Javascript,
              Node.js, React.js, MongoDb, Mongoose,MySQL. Here I was required to complete weekly assignments,
              these assignments gave me the oppurtunity to understand and develop applications using new technologies
              and concepts. Apart from weekly Assignments I also had the oppurtunity to develop 3 projects.
              The first project is a front end application.</p>
+
+             <p>During my college days, by completing Diploma course of Software Engineering. As part of the program,
+               developed skills to understand the user requirements, design, development and testing. Based on the user requirements
+               designed the application, normalized table design, Oracle forms, Oracle reports development.</p>
+
          </div>
-         <div>
-         <p>During my college days, by completing Diploma course of Software Engineering. As part of the program,
-           developed skills to understand the user requirements, design, development and testing. Based on the user requirements
-           designed the application, normalized table design, Oracle forms, Oracle reports development.</p>
-         </div>
+
     </div>
 
 
-      <div id = "project1">
-        <p>This is a Team Project.  This is a front appliation developed with an idea to reduce to pollution. This App provides
-         trail routes accessible by public transportation. The app uses Google Maps, Google Transit, Weather API's, JQuery,
-         HTML,CSS, Materialize</p>
-         <a href = "https://skprose.github.io/TrailBlazers/" target = "_blank">Trail Blazers</a>
-         <a href = "https://github.com/Skprose/TrailBlazers" target = "_blank">Git hub Repo</a>
+      <div id = "project1" class="mdeia">
+          <div class = 'row centercomp'>
+               <div class = "col-sm-12">
+                       <h3>TrailBlazer Application</h3>
+                      <p> This is a front appliation developed with an idea to reduce to pollution. This App provides
+                       trail routes accessible by public transportation. The app uses Google Maps, Google Transit, Weather API's, JQuery,
+                      HTML,CSS, Materialize</p>
+                      <a href = "https://skprose.github.io/TrailBlazers/" target = "_blank">Trail Blazers</a>
+                      <a href = "https://github.com/Skprose/TrailBlazers" target = "_blank">Git hub Repo</a>
+                </div>
+               <div class="col-lg-12">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/1KESobgtHno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               </div>
+
+         </div>
       </div>
-      <div id = "project2" class = "container">
+      <div id = "project2" class = "media">
          <div class = "row centercomp">
            <div class="col-lg-6">
                 <iframe src="https://www.youtube.com/embed/gwOWLU7wOMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -65,7 +78,7 @@
            <div class = "col-lg-6">
                  <div class = "row">
                        <div class = "col-sm-12">
-                           <h4>Wishlist Application</h4>
+                            <h3>Wishlist Application</h3>
                        </div>
                  </div>
                  <div class = "row">
@@ -80,7 +93,7 @@
                               <h6><a href="https://morning-plains-11582.herokuapp.com/" target ="_blank">Wishlist Application</a></h6>
                                <h6>Github repos</h6>
                               <h6><a href="https://github.com/scodingjs/wishlistmaterialize" target = "_blank">Wish List Repo2</a></h6>
-                              <h6><a href = " https://github.com/scodingjs/wlist" target = "_blank">Wish List Repo1 - Level1</a></h6>
+                              <h6><a href = "https://github.com/scodingjs/wlist" target = "_blank">Wish List Repo1 - Level1</a></h6>
                        </div>
                  </div>
             </div>
@@ -91,22 +104,59 @@
              <div class = "col-lg-6">
                   <div class = "row">
                       <div class = "col-sm-12">
-                        <h4>Giksha Solutions</h4>
+                        <h3>Giksha Solutions</3>
                       </div>
-                      <p> This is a full stack App to facilitate independant tutors to create batches and add students
-                      to the batch. The Teacher login is right now hardcoded entry. The Student login
-                      username and password are generated by the system based on firstname, lastname and phone number.
-                      The app uses React.js, Express, Node.js, Bootstrap,MongoDB, Mongoose, HTML,CSS</p>
-
-           Check the Application at <a href="" target = "_blank">Giksha Solutions</a>
-           Check the github Repos at<a href="https://github.com/scodingjs/Edutrack" target = "_blank">Gikshs Solutions Repo</a>
-
-           Check the screen recording of the app
-            <div class = "video-container">
-              <iframe  src="https://www.youtube.com/embed/MLoQk6VtLgg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-             </div>
+                  </div>
+                  <div class = "row">
+                      <div class = "col-sm-12">
+                            <p> This is a full stack App to facilitate independant tutors to create batches and add students
+                            to the batch. The Teacher login is right now hardcoded entry. The Student login
+                            username and password are generated by the system based on firstname, lastname and phone number.
+                           <a href="" target = "_blank">Giksha Solutions - Application</a>
+                           <a href="https://github.com/scodingjs/Edutrack" target = "_blank">Github Repo</a>
+                      </div>
+                  </div>
+              </div>
+              <div class = "col-lg-6">
+                  <div class = "video-container">
+                   <iframe  src="https://www.youtube.com/embed/MLoQk6VtLgg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+              </div>
+          </div>
       </div>
+      <div id = "myCarousel" class = "carousel slide" data-ride = "carousel">
 
+      </div>
      <script type="text/javascript" src="./js/script.js"></script>
   </body>
 </html>
+
+<!-- <div id = "project2" class = "media">
+   <div class = "row centercomp">
+     <div class="col-lg-6">
+          <iframe src="https://www.youtube.com/embed/gwOWLU7wOMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     </div>
+     <div class = "col-lg-6">
+           <div class = "row">
+                 <div class = "col-sm-12">
+                     <h3>Wishlist Application</h3>
+                 </div>
+           </div>
+           <div class = "row">
+                 <div class = "col-sm-12">
+                    <p>This is a full stack app to help anybody to create an account, Add items to the wish list.
+          z            The  wishlist can be updated and deleted also. This App developed using, HTML, CSS, Materilaize, Express,
+                      Express handlebars, MySQl, MVC design Architect, ORM Concepts.</p>
+                  </div>
+            </div>
+            <div class = "row">
+                  <div class = "col-sm-12">
+                        <h6><a href="https://morning-plains-11582.herokuapp.com/" target ="_blank">Wishlist Application</a></h6>
+                         <h6>Github repos</h6>
+                        <h6><a href="https://github.com/scodingjs/wishlistmaterialize" target = "_blank">Wish List Repo2</a></h6>
+                        <h6><a href = "https://github.com/scodingjs/wlist" target = "_blank">Wish List Repo1 - Level1</a></h6>
+                 </div>
+           </div>
+      </div>
+    </div>
+</div> -->
