@@ -21,3 +21,21 @@ body {
   margin: 10px;
   max-height: 80%;
 }
+
+#assignments {
+  width: 60%;
+  max-width: 60%;
+  max-height: 60%;
+  margin-left: 20%;
+  margin-bottom: 20%;
+  background-color: black;
+
+}
+
+#fid{
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
