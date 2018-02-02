@@ -32,6 +32,14 @@ body {
 
 }
 
+ .item {
+   color: white;
+}
+
+#assignments > a {
+   color: red;
+}
+
 #fid{
   position: relative;
   bottom:0;
