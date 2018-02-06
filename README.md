@@ -1,2 +1,4 @@
 # portfolio
-An effort to build portfolio using React.js
+
+Myportfolio showcasing my Projects and assignments. With links to Repo and the application.
+Using Bootsrap features.

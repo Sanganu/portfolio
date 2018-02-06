@@ -1,6 +1,7 @@
 body {
       position: relative;
       margin:10px;
+      background: "./assets/greybackground.jpg";
   }
 
  .videos {
@@ -42,7 +43,7 @@ body {
   bottom:0;
   left: 0;
   width: 100%;
-  background-color: black;
+  background-color:  #8C1527;
   color: white;
 }
 
@@ -59,7 +60,10 @@ body {
   width: 70%;
   background-color: hsl(0,0,46);
 }
-
+.navbar {
+  background-color: #8C1527 ;
+  color: white;
+}
 .assimg {
     height: 70%;
     max-height: 70%;
