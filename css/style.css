@@ -81,3 +81,15 @@ body {
 .prjvideo {
   height: 70%;
 }
+
+.aboutme
+{
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.contactdet {
+  margin: 30px;
+  padding: 30px;
+  border: solid black 5px;
+}
