@@ -5,6 +5,7 @@ $(document).ready(function()
   $("#project3").hide();
   $("#assignments").hide();
   $("#contact").hide();
+  // $("#assignmentcont").hide();
 
   $("#prj1").on("click",function(){
        console.log("On click1");
@@ -73,7 +74,7 @@ $(document).ready(function()
             $("#studentplanner").hide();
             $("#node").hide();
             break;
-       case 1:
+       case 8:
                 $("#gifcontent").hide();
                 $("#mathfacts").show();
                 $("#crystal").hide();
@@ -84,7 +85,7 @@ $(document).ready(function()
                 $("#studentplanner").hide();
                 $("#node").hide();
                 break;
-          case 2:
+          case 1:
                     $("#gifcontent").hide();
                     $("#mathfacts").hide();
                     $("#crystal").show();
@@ -95,7 +96,7 @@ $(document).ready(function()
                     $("#studentplanner").hide();
                     $("#node").hide();
                     break;
-            case 3:
+            case 2:
                           $("#gifcontent").hide();
                           $("#mathfacts").hide();
                           $("#crystal").hide();
@@ -106,7 +107,7 @@ $(document).ready(function()
                           $("#studentplanner").hide();
                           $("#node").hide();
                           break;
-            case 4:
+            case 3:
                               $("#gifcontent").hide();
                               $("#mathfacts").hide();
                               $("#crystal").hide();
@@ -117,7 +118,7 @@ $(document).ready(function()
                               $("#studentplanner").hide();
                               $("#node").hide();
                               break;
-              case 5:
+              case 4:
                                   $("#gifcontent").hide();
                                   $("#mathfacts").hide();
                                   $("#crystal").hide();
@@ -128,7 +129,7 @@ $(document).ready(function()
                                   $("#studentplanner").hide();
                                   $("#node").hide();
                                   break;
-               case 6:
+               case 5:
                                       $("#gifcontent").hide();
                                       $("#mathfacts").hide();
                                       $("#crystal").hide();
@@ -139,7 +140,7 @@ $(document).ready(function()
                                       $("#studentplanner").hide();
                                       $("#node").hide();
                                       break;
-               case 7:
+               case 6:
                                           $("#gifcontent").hide();
                                           $("#mathfacts").hide();
                                           $("#crystal").hide();
@@ -150,8 +151,8 @@ $(document).ready(function()
                                           $("#studentplanner").show();
                                           $("#node").hide();
                                           break;
-                case 8:
-                                              $("#gifcontent").show();
+                case 7:
+                                              $("#gifcontent").hide();
                                               $("#mathfacts").hide();
                                               $("#crystal").hide();
                                               $("#hangman").hide();
