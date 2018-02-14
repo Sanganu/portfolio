@@ -63,7 +63,7 @@ $(document).ready(function()
       console.log("Currentimg",currentimg);
 
       switch ( currentimg ) {
-        case 0:
+        case 8:
             $("#gifcontent").show();
             $("#mathfacts").hide();
             $("#crystal").hide();
@@ -74,7 +74,7 @@ $(document).ready(function()
             $("#studentplanner").hide();
             $("#node").hide();
             break;
-       case 8:
+       case 0:
                 $("#gifcontent").hide();
                 $("#mathfacts").show();
                 $("#crystal").hide();
