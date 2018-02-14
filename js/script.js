@@ -73,6 +73,95 @@ $(document).ready(function()
             $("#studentplanner").hide();
             $("#node").hide();
             break;
+       case 1:
+                $("#gifcontent").hide();
+                $("#mathfacts").show();
+                $("#crystal").hide();
+                $("#hangman").hide();
+                $("#webscrapper").hide();
+                $("#finedining").hide();
+                $("#perfectfriend").hide();
+                $("#studentplanner").hide();
+                $("#node").hide();
+                break;
+          case 2:
+                    $("#gifcontent").hide();
+                    $("#mathfacts").hide();
+                    $("#crystal").show();
+                    $("#hangman").hide();
+                    $("#webscrapper").hide();
+                    $("#finedining").hide();
+                    $("#perfectfriend").hide();
+                    $("#studentplanner").hide();
+                    $("#node").hide();
+                    break;
+            case 3:
+                          $("#gifcontent").hide();
+                          $("#mathfacts").hide();
+                          $("#crystal").hide();
+                          $("#hangman").show();
+                          $("#webscrapper").hide();
+                          $("#finedining").hide();
+                          $("#perfectfriend").hide();
+                          $("#studentplanner").hide();
+                          $("#node").hide();
+                          break;
+            case 4:
+                              $("#gifcontent").hide();
+                              $("#mathfacts").hide();
+                              $("#crystal").hide();
+                              $("#hangman").hide();
+                              $("#webscrapper").show();
+                              $("#finedining").hide();
+                              $("#perfectfriend").hide();
+                              $("#studentplanner").hide();
+                              $("#node").hide();
+                              break;
+              case 5:
+                                  $("#gifcontent").hide();
+                                  $("#mathfacts").hide();
+                                  $("#crystal").hide();
+                                  $("#hangman").hide();
+                                  $("#webscrapper").hide();
+                                  $("#finedining").show();
+                                  $("#perfectfriend").hide();
+                                  $("#studentplanner").hide();
+                                  $("#node").hide();
+                                  break;
+               case 6:
+                                      $("#gifcontent").hide();
+                                      $("#mathfacts").hide();
+                                      $("#crystal").hide();
+                                      $("#hangman").hide();
+                                      $("#webscrapper").hide();
+                                      $("#finedining").hide();
+                                      $("#perfectfriend").show();
+                                      $("#studentplanner").hide();
+                                      $("#node").hide();
+                                      break;
+               case 7:
+                                          $("#gifcontent").hide();
+                                          $("#mathfacts").hide();
+                                          $("#crystal").hide();
+                                          $("#hangman").hide();
+                                          $("#webscrapper").hide();
+                                          $("#finedining").hide();
+                                          $("#perfectfriend").hide();
+                                          $("#studentplanner").show();
+                                          $("#node").hide();
+                                          break;
+                case 8:
+                                              $("#gifcontent").show();
+                                              $("#mathfacts").hide();
+                                              $("#crystal").hide();
+                                              $("#hangman").hide();
+                                              $("#webscrapper").hide();
+                                              $("#finedining").hide();
+                                              $("#perfectfriend").hide();
+                                              $("#studentplanner").hide();
+                                              $("#node").show();
+                                              break;
+
       }
   });
 });
