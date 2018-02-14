@@ -73,9 +73,9 @@ body {
 }
 .carimg {
    height: 600px;
-   width:80%;
-   margin-left: 60px;
-   padding-left: 60px;
+   width:100%;
+   margin-left: 30px;
+   padding-left: 30px;
 }
 .assexp {
      height : 30%;
@@ -83,7 +83,7 @@ body {
 }
 
 .prjvideo {
-  height: 70%;
+  height: 50%;
 }
 
 .aboutme

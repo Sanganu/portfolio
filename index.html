@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+﻿  <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -82,26 +82,14 @@
                 <iframe class = "prjvideo embed-responsive-item" src="https://www.youtube.com/embed/gwOWLU7wOMY?rel=0&showinfo=0"  allowfullscreen></iframe>
            </div>
            <div class = "col-lg-3">
-                 <div class = "row">
-                       <div class = "col-sm-12">
-                            <h3>Wishlist Application</h3>
-                       </div>
-                 </div>
-                 <div class = "row">
-                       <div class = "col-sm-12">
+                       <h3>Wishlist Application</h3>
                           <p>This is a full stack app, A person can create an account, Add items to the wish list.
                             The  wishlist can be updated and deleted also. This App developed using, HTML, CSS, Materilaize, Express,
                             Express handlebars, MySQl, MVC design Architect, ORM Concepts.</p>
-                        </div>
-                  </div>
-                  <div class = "row">
-                        <div class = "col-sm-12">
-                              <h6><a href="https://morning-plains-11582.herokuapp.com/" target ="_blank">Wishlist Application</a></h6>
-                               <h6>Github</h6>
-                              <h6><a href="https://github.com/scodingjs/wishlistmaterialize" target = "_blank">Wish List Repo2</a></h6>
-                              <h6><a href = "https://github.com/scodingjs/wlist" target = "_blank">Wish List Repo1</a></h6>
-                       </div>
-                 </div>
+                      <h6><a href="https://morning-plains-11582.herokuapp.com/" target ="_blank">Wishlist Application</a></h6>
+                       <h6>Github</h6>
+                        <h6><a href="https://github.com/scodingjs/wishlistmaterialize" target = "_blank">Wish List Repo2</a></h6>                            <h6><a href = "https://github.com/scodingjs/wlist" target = "_blank">Wish List Repo1</a></h6>
+
             </div>
           </div>
       </div>
@@ -119,7 +107,7 @@
                   </div>
                   <div class = "col-lg-9 embed-responsive embed-responsive-16by9">
                       <iframe  class = "prjvideo embed-responsive-item" src="https://www.youtube.com/embed/MLoQk6VtLgg?rel=0&showinfo=0"  allowfullscreen></iframe>
-                      <!-- <iframe class = "prjvideo embed-responsive-item" src="https://www.youtube.com/embed/gwOWLU7wOMY?rel=0&showinfo=0"  allowfullscreen></iframe> -->
+                      <!-- <iframe class = "pr jvideo embed-responsive-item" src="https://www.youtube.com/embed/gwOWLU7wOMY?rel=0&showinfo=0"  allowfullscreen></iframe> -->
                   </div>
           </div>
       </div>
@@ -127,7 +115,10 @@
       <div id = "assignments" >
           <!-- <h3>Assignments</h3> -->
           <br />
-          <div id = "myCarousel" class = "carousel slide" data-ride = "carousel">
+          <div class = "container">
+              <div class = "row">
+                  <div class = "col-lg-8">
+                          <div id = "myCarousel" class = "carousel slide" data-ride = "carousel">
                                     <!-- Indicators -->
                                     <ol class = "carousel-indicators">
                                          <li data-target="#myCarousel" data-slide-to="0" class = "active"></li>
@@ -136,138 +127,61 @@
                                          <li data-tar hidden=""get="#myCarousel" data-slide-to="3"><li>
                                     </ol>
                                     <!-- Wrapper for slides -->
+
                                       <div class="carousel-inner">
-                                                <div class="item active">
+                                                <div class="item active" id = "giphy">
                                                                  <div class ="assimg">
-                                                                      <img class = "carimg d-block img-responsive" src="./assets/gifscreen.JPG" alt="Gif Application">
-                                                                </div>
-                                                                <div class = "assexp">
-                                                                    <h3>Fun Application to display gif's based on selected string</h3>
-                                                                    <ul>
-                                                                        <li>Using Giphy APIs with parameter</li>
-                                                                        <li>Ajax calls</li>
-                                                                        <li>Control on display of gif's</li>
-                                                                        <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/GameswithTimer/AssignmentonGif.html" target = "_blank">Application</a></li>
-                                                                        <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/GameswithTimer/AssignmentonGif.html" target = "_blank">Github Pages</a></li>
-                                                                    </ul>
+                                                                      <img data-item = "gifapi" class = "carimg d-block img-responsive" src="./assets/gifscreen.JPG" alt="Gif Application">
                                                                 </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="item" id = "mathfactstimed">
                                                           <div class ="assimg">
-                                                             <img src="./assets/timedfactsgif.JPG" class = "carimg d-block img-fluid" alt="Timed Math Facts">
+                                                             <img data-item = "timedfacts" src="./assets/timedfactsgif.JPG" class = "carimg d-block img-fluid" alt="Timed Math Facts">
                                                           </div>
-                                                          <div class = "assexp">
-                                                                <h3>Timed Math Facts</h3>
-                                                                <ul>
-                                                                    <li>Using JQuery</li>
-                                                                    <li>Set timeout</li>
-                                                                    <li>Select the right answer to the math questions</li>
-                                                                    <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/GameswithTimer/timergame1.html" target = "_blank">Application</a></li>
-                                                                    <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/GameswithTimer/timergame1.html" target = "_blank">Github Repo</a></li>
-                                                                </ul>
-                                                          </div>
+
                                                    </div>
-                                                  <div class="item">
+                                                  <div class="item" id = "crystgame">
                                                              <div class ="assimg">
-                                                                 <img src="./assets/crystalgif.JPG"  class = "carimg d-block img-fluid" alt="crystalgif">
+                                                                 <img data-item = "crystalgame" src="./assets/crystalgif.JPG"  class = "carimg d-block img-fluid" alt="crystalgif">
                                                             </div>
-                                                            <div class = "assexp">
-                                                                <h3>Crystal collector game</h3>
-                                                                <ul>
-                                                                   <li>Using JQuery</li>
-                                                                    <li>On-Click event handling</li>
-                                                                    <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/JQuery_Games/Game_1.html" target = "_blank">Application</a></li>
-                                                                    <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/JQuery_Games/Game_1.html" target = "_blank">Github Repo</a></li>
-                                                                </ul>
-                                                            </div>
+
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="item" id = "hangmansinger">
                                                                <div class ="assimg">
-                                                                  <img src="./assets/hangman.JPG" class = "carimg d-block img-fluid" alt="Hangman - screenshot">
+                                                                  <img data-item = "hangman" src="./assets/hangman.JPG" class = "carimg d-block img-fluid" alt="Hangman - screenshot">
                                                                </div>
-                                                              <div class = "assexp">
-                                                                  <h3>Hangman - Guess the Singer's name</h3>
-                                                                  <ul>
-                                                                    <li>Using Keyup Event, Arrays</li>
-                                                                    <li>String functions</li>
-                                                                    <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/hangman.html" target = "_blank">Hangman - fun app</a></html>
-                                                                    <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/hangman.html" target = "_blank">Github Repo</a></li>
-                                                                </ul>
-                                                              </div>
+
                                                   </div>
-                                                   <div class="item">
+                                                   <div class="item" id = "wdscrapper">
                                                          <div class ="assimg">
-                                                             <img src="./assets/webscrape.JPG"  class = "carimg d-block img-fluid" alt="Web Scrapper App - Screenshot">
+                                                             <img data-item = "webscrapper" src="./assets/webscrape.JPG"  class = "carimg d-block img-fluid" alt="Web Scrapper App - Screenshot">
                                                           </div>
-                                                        <div class = "assexp">
-                                                              <h3>WebScrapper App - Nytimes Movies Review</h3>
-                                                              <ul>
-                                                                <li>Node.js,Cheerios, Request - npm packages</li>
-                                                                <li>MongoDB</li>
-                                                                <li><a href = "https://arcane-fortress-23407.herokuapp.com/" target = "_blank">Web Scrapper - NY times</a></html>
-                                                                <li><a href = "https://github.com/scodingjs/webscrapper" target = "_blank">Github Repo</a></li>
-                                                            </ul>
-                                                       </div>
+
                                                    </div>
                                                   <div class="item">
                                                              <div class ="assimg">
-                                                                 <img src="./assets/finedine.JPG" class = "carimg d-block img-fluid" alt="Fine Dining App - Screenshot">
+                                                                 <img data-item = "finedine" src="./assets/finedine.JPG" class = "carimg d-block img-fluid" alt="Fine Dining App - Screenshot">
                                                              </div>
 
-                                                            <div class = "assexp">
-                                                                    <h3>Fine Dining Application - The Chef decides the menu of the day</h3>
-                                                                    <ul>
-                                                                      <li>Node.js,Express, Handlebars, AJAX calls</li>
-                                                                      <li>MySQL - Database</li>
-                                                                      <li>A Full stack application deployed on Heroku</li>
-                                                                      <li><a href = "https://enigmatic-lowlands-76145.herokuapp.com/" target = "_blank">Fine Dining App</a></html>
-                                                                      <li><a href = "https://github.com/scodingjs/njsexphb" target = "_blank">Github Repo</a></li>
-                                                                    </ul>
-                                                            </div>
+
                                                   </div>
                                                   <div class="item">
                                                              <div class ="assimg">
-                                                                <img src="./assets/friendfind.JPG" class = "carimg d-block img-fluid" alt="Perfect Friend finder App - screenshot">
+                                                                <img data-item = "friendfind" src="./assets/friendfind.JPG" class = "carimg d-block img-fluid" alt="Perfect Friend finder App - screenshot">
                                                              </div>
-                                                             <div class = "assexp">
-                                                                   <h3>Perfect Friend App - Finds the most compatible friend based on Survey Questions</h3>
-                                                                   <ul>
-                                                                     <li>JSON object of user data loaded from file</li>
-                                                                     <li>Modal concept - front end</li>
-                                                                     <li>Application deployed on Heroku</li>
-                                                                     <li><a href = "https://murmuring-ravine-46753.herokuapp.com/survey" target = "_blank">Friend Finder App</a></html>
-                                                                     <li><a href = "https://github.com/scodingjs/Perfectfriend" target = "_blank">Github Repo</a></li>
-                                                                   </ul>
-                                                           </div>
+
                                                   </div>
                                                   <div class="item">
                                                              <div class ="assimg">
                                                                 <img src="./assets/studentpl.JPG" class = "carimg d-block img-fluid" alt="Student Planner App - Screenshot">
                                                              </div>
-                                                             <div class = "assexp">
-                                                                   <h3>Student Planner App - Assignments and Homeworks</h3>
-                                                                   <ul>
-                                                                     <li>Express, Handlebars, ORM Concepts</li>
-                                                                     <li>MySQL - Database</li>
-                                                                     <li>A Full stack application deployed on Heroku</li>
-                                                                     <li><a href = "https://nameless-island-26170.herokuapp.com/" target = "_blank">Fine Dining App</a></html>
-                                                                     <li><a href = "https://github.com/scodingjs/ormappl" target = "_blank">Github Repo</a></li>
-                                                                   </ul>
-                                                           </div>
+
                                                   </div>
                                                   <div class="item">
                                                               <div class = "assimg">
-                                                                   <img src="./assets/.jpg" class = "carimg d-block img-fluid" alt="Node Assignments">
+                                                                   <img src="" class = "carimg d-block img-fluid" alt="Node Assignments">
                                                               </div>
-                                                              <div class = "assexp">
-                                                                    <h3>Node.js - conepts</h3>
-                                                                    <ul>
-                                                                      <li>Inquirer, fs (file read/write) - log file creation</li>
-                                                                      <li>Process argv, Contructors</li>
-                                                                      <li>Twitter, Spotify, Omdb - API calls </li>
-                                                                      <li><a href = "https://github.com/scodingjs/hjtsmclss" target = "_blank">Github Repo</a></li>
-                                                                    </ul>
-                                                            </div>
+
                                                   </div>
                                  </div>   <!-- End craousel inner -->
                                       <!-- Left and right controls -->
@@ -281,7 +195,99 @@
                                       </a>
 
                          </div> <!-- End carousel slide -->
+              </div> <!--End col-->
+              <div class = "col-lg-4">
 
+                  <div  id = "gifcontent">
+                      <h3>Fun Application to display gif's based on selected string</h3>
+                      <ul>
+                          <li>Using Giphy APIs with parameter</li>
+                          <li>Ajax calls</li>
+                          <li>Control on display of gif's</li>
+                          <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/GameswithTimer/AssignmentonGif.html" target = "_blank">Application</a></li>
+                          <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/GameswithTimer/AssignmentonGif.html" target = "_blank">Github Pages</a></li>
+                      </ul>
+                  </div>
+                  <div id = "mathfacts">
+                        <h3>Timed Math Facts</h3>
+                        <ul>
+                            <li>Using JQuery</li>
+                            <li>Set timeout</li>
+                            <li>Select the right answer to the math questions</li>
+                            <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/GameswithTimer/timergame1.html" target = "_blank">Application</a></li>
+                            <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/GameswithTimer/timergame1.html" target = "_blank">Github Repo</a></li>
+                        </ul>
+                  </div>
+                  <div id = "crystal">
+                      <h3>Crystal collector game</h3>
+                      <ul>
+                         <li>Using JQuery</li>
+                          <li>On-Click event handling</li>
+                          <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/JQuery_Games/Game_1.html" target = "_blank">Application</a></li>
+                          <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/JQuery_Games/Game_1.html" target = "_blank">Github Repo</a></li>
+                      </ul>
+                  </div>
+                  <div id = "hangman">
+                      <h3>Hangman - Guess the Singer's name</h3>
+                      <ul>
+                        <li>Using Keyup Event, Arrays</li>
+                        <li>String functions</li>
+                        <li><a href = "https://skprose.github.io/MyPortfolio/Javascript_Games/hangman.html" target = "_blank">Hangman - fun app</a></html>
+                        <li><a href = "https://github.com/Skprose/MyPortfolio/blob/master/Javascript_Games/hangman.html" target = "_blank">Github Repo</a></li>
+                    </ul>
+                  </div>
+                  <div id = "webscrapper">
+                        <h3>WebScrapper App - Nytimes Movies Review</h3>
+                        <ul>
+                          <li>Node.js,Cheerios, Request - npm packages</li>
+                          <li>MongoDB</li>
+                          <li><a href = "https://arcane-fortress-23407.herokuapp.com/" target = "_blank">Web Scrapper - NY times</a></html>
+                          <li><a href = "https://github.com/scodingjs/webscrapper" target = "_blank">Github Repo</a></li>
+                      </ul>
+                 </div>
+                 <div id = "finedining">
+                         <h3>Fine Dining Application - The Chef decides the menu of the day</h3>
+                         <ul>
+                           <li>Node.js,Express, Handlebars, AJAX calls</li>
+                           <li>MySQL - Database</li>
+                           <li>A Full stack application deployed on Heroku</li>
+                           <li><a href = "https://enigmatic-lowlands-76145.herokuapp.com/" target = "_blank">Fine Dining App</a></html>
+                           <li><a href = "https://github.com/scodingjs/njsexphb" target = "_blank">Github Repo</a></li>
+                         </ul>
+                 </div>
+                 <div id = "perfectfriend">
+                       <h3>Perfect Friend App - Finds the most compatible friend based on Survey Questions</h3>
+                       <ul>
+                         <li>JSON object of user data loaded from file</li>
+                         <li>Modal concept - front end</li>
+                         <li>Application deployed on Heroku</li>
+                         <li><a href = "https://murmuring-ravine-46753.herokuapp.com/survey" target = "_blank">Friend Finder App</a></html>
+                         <li><a href = "https://github.com/scodingjs/Perfectfriend" target = "_blank">Github Repo</a></li>
+                       </ul>
+               </div>
+               <div id = "studentplanner">
+                     <h3>Student Planner App - Assignments and Homeworks</h3>
+                     <ul>
+                       <li>Express, Handlebars, ORM Concepts</li>
+                       <li>MySQL - Database</li>
+                       <li>A Full stack application deployed on Heroku</li>
+                       <li><a href = "https://nameless-island-26170.herokuapp.com/" target = "_blank">Fine Dining App</a></html>
+                       <li><a href = "https://github.com/scodingjs/ormappl" target = "_blank">Github Repo</a></li>
+                     </ul>
+               </div>
+               <div id = "node">
+                     <h3>Node.js - conepts</h3>
+                     <ul>
+                       <li>Inquirer, fs (file read/write) - log file creation</li>
+                       <li>Process argv, Contructors</li>
+                       <li>Twitter, Spotify, Omdb - API calls </li>
+                       <li><a href = "https://github.com/scodingjs/hjtsmclss" target = "_blank">Github Repo</a></li>
+                     </ul>
+                </div>
+
+              </div>
+           </div>
+        </div>
      </div> <!-- assignments div -->
 
      <!-- contact me -->

@@ -56,4 +56,23 @@ $(document).ready(function()
         $("#assignments").hide();
         $("#contact").show();
   });
+  $("#myCarousel").on("slide.bs.carousel", function() {
+     console.log("Inchange carouse - this",this,this.id);
+      var currentimg = $(this).find('.active').index();
+      console.log("Currentimg",currentimg);
+
+      switch ( currentimg ) {
+        case 0:
+            $("#gifcontent").show();
+            $("#mathfacts").hide();
+            $("#crystal").hide();
+            $("#hangman").hide();
+            $("#webscrapper").hide();
+            $("#finedining").hide();
+            $("#perfectfriend").hide();
+            $("#studentplanner").hide();
+            $("#node").hide();
+            break;
+      }
+  });
 });
