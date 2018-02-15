@@ -17,17 +17,18 @@ body {
 .centercomp {
   margin: 10px;
   max-height: 80%;
-}
+}#
+
 
 #assignments {
-  /*width: 60%;*/
-  /*max-width: 60%;*/
-  /*max-height: 60%;*/
+  width: 90%;
+  max-width: 90%;
+  height: 90%;
+  max-height: 90%;
   /*margin-left: 20%;*/
   /*margin-bottom: 20%;*/
   /*background-color: black;*/
-   margin-left: 60px;
-   padding-left:60px;
+
 }
 
  iframe {
