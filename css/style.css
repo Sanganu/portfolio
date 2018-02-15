@@ -1,7 +1,7 @@
 body {
-      position: relative;
-      margin:10px;
-
+      /*position: relative;
+      margin:10px;*/
+      height: 100vh;
   }
 
  .videos {
@@ -57,25 +57,27 @@ body {
 #myCarousel {
   height: 70%;
   max-height: 70%;
-  width: 70%;
+  width: 100%;
   background-color: hsl(0,0,46);
 }
+
+
 .navbar {
   background-color: #8C1527 ;
   color: white;
 }
-.assimg {
-    height: 70%;
-    max-height: 70%;
-    margin: 20px;
-    padding: 20px;
+/*.assimg {
+    height: 90%;
+    max-height: 90%;
 
-}
-.carimg {
+
+}*/
+/*.carimg {
    height: 600px;
    width:100%;
-   margin-left: 30px;
-   padding-left: 30px;
+   }*/
+.item {
+  widht: 99%;
 }
 .assexp {
      height : 30%;
@@ -88,8 +90,8 @@ body {
 
 .aboutme
 {
-  margin-left: 10px;
-  padding-left: 10px;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .contactdet {

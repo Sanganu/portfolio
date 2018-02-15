@@ -8,7 +8,7 @@ $(document).ready(function()
   // $("#assignmentcont").hide();
 
   $("#prj1").on("click",function(){
-       console.log("On click1");
+
         $("#project1").show();
         $("#project2").hide();
         $("#project3").hide();
@@ -17,7 +17,7 @@ $(document).ready(function()
          $("#assignments").hide();
   });
   $("#prj2").on("click",function(){
-       console.log("On click2");
+
         $("#project1").hide();
         $("#project2").show();
         $("#project3").hide();
@@ -58,8 +58,7 @@ $(document).ready(function()
         $("#contact").show();
   });
   $("#myCarousel").on("slide.bs.carousel", function() {
-     console.log("Inchange carouse - this",this,this.id);
-      var currentimg = $(this).find('.active').index();
+       var currentimg = $(this).find('.active').index();
       console.log("Currentimg",currentimg);
 
       switch ( currentimg ) {
