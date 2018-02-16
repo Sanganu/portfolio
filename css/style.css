@@ -137,7 +137,16 @@ footer {
    }
 }
 */
-
+#eduinfo {
+  font-family: 'Amiri', serif;
+}
+.contact {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.tablehome {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 14px;
+}
 @media only screen and (max-width: 768px)
 {
       #ppic {
