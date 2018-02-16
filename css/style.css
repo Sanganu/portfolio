@@ -123,7 +123,9 @@ footer {
   font-family: 'Berkshire Swash', cursive;
   font-size: 20px;
 }
-
+.introsection {
+   font-family: 'Philosopher', sans-serif;
+}
 
 /*@media only screen and (min-width:769px)
 {
