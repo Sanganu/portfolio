@@ -134,15 +134,15 @@ footer {
      display: block;
    }
 }
+*/
 
 @media only screen and (max-width: 768px)
 {
       #ppic {
-
         display: none;
       }
 
       #assignmentcont {
       display: none;
       }
-}*/
+}
