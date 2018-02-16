@@ -57,8 +57,8 @@ footer {
 }
 
 #contacttable{
-    margin:50px;
-    padding: 50px;
+    margin:70px;
+    padding: 70px;
     width: 70vw;
 }
 #fid{
@@ -116,3 +116,25 @@ footer {
   margin-left: 20px;
   padding-left: 20px;
 }
+
+/*@media only screen and (min-width:769px)
+{
+   #ppic {
+    display: inline;
+   }
+   #assignmentcont {
+     display: block;
+   }
+}
+
+@media only screen and (max-width: 768px)
+{
+      #ppic {
+
+        display: none;
+      }
+
+      #assignmentcont {
+      display: none;
+      }
+}*/
