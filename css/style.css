@@ -144,14 +144,21 @@ footer {
   margin-bottom: 10px;
   padding-bottom: 10px;*/
 }
+.appheading {
+  font-family: 'Cantata One', serif;
+}
+.appexplanation {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+}
 
 .contact {
   font-family: 'Alegreya Sans', sans-serif;
 }
-/*.tablehome {
-  font-family: 'Arsenal', sans-serif;
+.tablehome {
+  font-family: 'Amiri', sans-serif;
   font-size: 14px;
-}*/
+}
 @media only screen and (max-width: 768px)
 {
       #ppic {
