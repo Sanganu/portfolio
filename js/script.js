@@ -62,7 +62,7 @@ $(document).ready(function()
       console.log("Currentimg",currentimg);
 
       switch ( currentimg ) {
-        case 8:
+        case 7:
             $("#gifcontent").show();
             $("#mathfacts").hide();
             $("#crystal").hide();
@@ -150,7 +150,7 @@ $(document).ready(function()
                                           $("#studentplanner").show();
                                           $("#node").hide();
                                           break;
-                case 7:
+                case 17:
                                               $("#gifcontent").hide();
                                               $("#mathfacts").hide();
                                               $("#crystal").hide();
