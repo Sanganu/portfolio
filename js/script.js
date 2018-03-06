@@ -139,18 +139,18 @@ $(document).ready(function()
                                       $("#studentplanner").hide();
                                       $("#node").hide();
                                       break;
-               case 6:
-                                          $("#gifcontent").hide();
-                                          $("#mathfacts").hide();
-                                          $("#crystal").hide();
-                                          $("#hangman").hide();
-                                          $("#webscrapper").hide();
-                                          $("#finedining").hide();
-                                          $("#perfectfriend").hide();
-                                          $("#studentplanner").show();
-                                          $("#node").hide();
-                                          break;
-                case 17:
+              //  case 6:
+              //                             $("#gifcontent").hide();
+              //                             $("#mathfacts").hide();
+              //                             $("#crystal").hide();
+              //                             $("#hangman").hide();
+              //                             $("#webscrapper").hide();
+              //                             $("#finedining").hide();
+              //                             $("#perfectfriend").hide();
+              //                             $("#studentplanner").show();
+              //                             $("#node").hide();
+              //                             break;
+                case 6:
                                               $("#gifcontent").hide();
                                               $("#mathfacts").hide();
                                               $("#crystal").hide();
