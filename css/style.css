@@ -1,4 +1,4 @@
-body {
+ody {
       /*position: relative;
       margin:10px;*/
       height: 100vh;
@@ -27,7 +27,6 @@ body {
 
 }
 #mygif {
-
   padding-bottom: 20px;
   margin-bottom: 20px;
   background-color: white;
@@ -128,12 +127,15 @@ footer {
   font-family: 'Berkshire Swash', cursive;
   font-size: 30px;
 }
+.abtme {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 20px;
+}
 .introsection {
    font-family: 'Philosopher', sans-serif;
    font-size: 20px;
-   margin-top: 20px;
+   margin-top: 10px;
   }
-
 
 #eduinfo {
   font-family: 'Amiri', serif;
@@ -146,6 +148,7 @@ footer {
 }
 .appheading {
   font-family: 'Cantata One', serif;
+
 }
 .appexplanation {
   font-family: 'Philosopher', sans-serif;

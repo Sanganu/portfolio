@@ -57,13 +57,14 @@ $(document).ready(function()
         $("#assignments").hide();
         $("#contact").show();
   });
+
   $("#myCarousel").on("slide.bs.carousel", function() {
        var currentimg = $(this).find('.active').index();
       console.log("Currentimg",currentimg);
 
       switch ( currentimg ) {
         case 7:
-            $("#gifcontent").show();
+             $("#gifcontent").show();
             $("#mathfacts").hide();
             $("#crystal").hide();
             $("#hangman").hide();
