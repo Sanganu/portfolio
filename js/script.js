@@ -68,7 +68,7 @@ $(document).ready(function()
             $("#mathfacts").hide();
             $("#crystal").hide();
             $("#hangman").hide();
-            $("#webscrapper").hide();
+            $("#webscraper").hide();
             $("#finedining").hide();
             $("#perfectfriend").hide();
             $("#studentplanner").hide();
@@ -79,7 +79,7 @@ $(document).ready(function()
                 $("#mathfacts").show();
                 $("#crystal").hide();
                 $("#hangman").hide();
-                $("#webscrapper").hide();
+                $("#webscraper").hide();
                 $("#finedining").hide();
                 $("#perfectfriend").hide();
                 $("#studentplanner").hide();
@@ -90,7 +90,7 @@ $(document).ready(function()
                     $("#mathfacts").hide();
                     $("#crystal").show();
                     $("#hangman").hide();
-                    $("#webscrapper").hide();
+                    $("#webscraper").hide();
                     $("#finedining").hide();
                     $("#perfectfriend").hide();
                     $("#studentplanner").hide();
@@ -101,7 +101,7 @@ $(document).ready(function()
                           $("#mathfacts").hide();
                           $("#crystal").hide();
                           $("#hangman").show();
-                          $("#webscrapper").hide();
+                          $("#webscraper").hide();
                           $("#finedining").hide();
                           $("#perfectfriend").hide();
                           $("#studentplanner").hide();
@@ -112,7 +112,7 @@ $(document).ready(function()
                               $("#mathfacts").hide();
                               $("#crystal").hide();
                               $("#hangman").hide();
-                              $("#webscrapper").show();
+                              $("#webscraper").show();
                               $("#finedining").hide();
                               $("#perfectfriend").hide();
                               $("#studentplanner").hide();
@@ -123,7 +123,7 @@ $(document).ready(function()
                                   $("#mathfacts").hide();
                                   $("#crystal").hide();
                                   $("#hangman").hide();
-                                  $("#webscrapper").hide();
+                                  $("#webscraper").hide();
                                   $("#finedining").show();
                                   $("#perfectfriend").hide();
                                   $("#studentplanner").hide();
@@ -134,7 +134,7 @@ $(document).ready(function()
                                       $("#mathfacts").hide();
                                       $("#crystal").hide();
                                       $("#hangman").hide();
-                                      $("#webscrapper").hide();
+                                      $("#webscraper").hide();
                                       $("#finedining").hide();
                                       $("#perfectfriend").show();
                                       $("#studentplanner").hide();
@@ -145,7 +145,7 @@ $(document).ready(function()
               //                             $("#mathfacts").hide();
               //                             $("#crystal").hide();
               //                             $("#hangman").hide();
-              //                             $("#webscrapper").hide();
+              //                             $("#webscraper").hide();
               //                             $("#finedining").hide();
               //                             $("#perfectfriend").hide();
               //                             $("#studentplanner").show();
@@ -156,7 +156,7 @@ $(document).ready(function()
                                               $("#mathfacts").hide();
                                               $("#crystal").hide();
                                               $("#hangman").hide();
-                                              $("#webscrapper").hide();
+                                              $("#webscraper").hide();
                                               $("#finedining").hide();
                                               $("#perfectfriend").hide();
                                               $("#studentplanner").hide();
