@@ -39,7 +39,7 @@ footer {
   height:80px;
   clear: both;
   text-align: center;
-  position:fixed;
+  position:sticky;
   bottom:0;
   margin:10px;
   margin-bottom: 0;
